@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="auto">
+<head>
+	<meta charset="utf-8">
+	<meta content="index.html">    
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="copyright" content="Centro de Actividades Físicas La Punta">
+	<meta name="description" content="CAF Club La Punta es un espacio inclusivo que promueve la actividad física para todos. Nuestro objetivo es mejorar su salud , bienestar y rendimiento, adaptándonos a sus necesidades y características individuales. GGimnasio.">
+	<meta name="author" content="Ponce Ulises">
+	<meta name="designer" content="Ponce Ulises">
+	<meta name="google-site-verification" content="f-HZOxzKFIBpI4W8X5EuKhD_2MCLaJEWOhEbXkphlgk" />
+	<title>Centro de Actividades Físicas</title>
+
+	<!-- TAB ICON -->
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+	<link rel="icon" sizes="32x32" type="image/png" href="assets/img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+	
+	<!-- BOOTSTRAP -->	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+	<!-- STYLE -->
+	<link rel="stylesheet" href="assets/css/style.css?v3">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	
+	<!-- ICONS -->
+	<script src="https://kit.fontawesome.com/139a156868.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />	
+
+	<!-- FONTS -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+	
+	<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	
+</head>
+
+<body class="overflow-x-hidden bg-body">
+	<a class="text-decoration-none text-light" href="https://api.whatsapp.com/send?phone=5492664572230&text=Hola! Me gustaría conocer más acerca del gimnasio!" target="_blank"><button class="floating-buttom"data-aos="fade-up"><i class="fa-brands fa-whatsapp"></i></button></a>
+	<svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+		<symbol id="circle-half" viewBox="0 0 16 16">
+			<path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+		</symbol>
+		<symbol id="moon-stars-fill" viewBox="0 0 16 16">
+			<path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+			<path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+		</symbol>
+		<symbol id="sun-fill" viewBox="0 0 16 16">
+			<path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+		</symbol>
+	</svg>
+	<header class="header-bg">
+		<nav class="navbar navbar-expand-lg z-1 fixed-top" data-aos="fade-down">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+				<img id="logo" class="logo-scale" src="assets/img/logo.png" alt="Logotipo" width="180" height="130">
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end text-dark text-uppercase" id="navbarNavDropdown">
+					<ul class="navbar-nav">
+						<li class="nav-item m-2">
+							<a class="nav-link li active" aria-current="page" href="index.html">Home</a>
+						</li>
+						<li class="nav-item m-2">
+							<a class="nav-link li" href="horarios.html">Horarios</a>
+						</li>
+						<li class="nav-item dropdown m-2">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Actividades
+							</a>
+							<ul class="dropdown-menu pages-dropdown">
+								<li><a class="dropdown-item" href="actividades/musculacion.html">Musculación</a></li>
+								<li><a class="dropdown-item" href="actividades/funcional.html">Funcional</a></li>
+								<li><a class="dropdown-item" href="actividades/funcionalcross.html">Funcional Cross</a></li>
+								<li><a class="dropdown-item" href="actividades/crossfit.html">Crossfit</a></li>
+								<li><a class="dropdown-item" href="actividades/deportivo.html">Deportivo</a></li>
+								<li><a class="dropdown-item" href="actividades/hiit.html">Hiit</a></li>
+							</ul>
+						</li>
+						<li class="nav-item m-2">
+							<a class="nav-link li" href="contacto.html">Contacto</a>
+						</li>
+						<li class="nav-item dropdown m-2">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Nosotros
+							</a>
+							<ul class="dropdown-menu pages-dropdown">
+								<li><a class="dropdown-item" href="staff.html">Staff</a></li>
+								<li><a class="dropdown-item" href="instalaciones.html">Instalaciones</a></li>
+								<li><a class="dropdown-item" href="planes.html">Planes</a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="navbar-nav">
+						<li class="nav-item dropdown m-2">
+							<!-- Inicio Toggle modo dark -->
+							<div class="dropdown theme bd-mode-toggle">
+								<button class="btn btn-bd-primary dropdown-toggle d-flex align-items-center"
+										id="bd-theme"
+										type="button"
+										aria-expanded="false"
+										data-bs-toggle="dropdown"
+										aria-label="Toggle theme (auto)">
+								<svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
+								<span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+								</button>
+								<ul class="dropdown-menu theme dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+								<li>
+									<button type="button" class="dropdown-item d-flex align-items-center color-theme" data-bs-theme-value="light" aria-pressed="false">
+									<svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+									Light
+									<svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+									</button>
+								</li>
+								<li>
+									<button type="button" class="dropdown-item d-flex align-items-center color-theme" data-bs-theme-value="dark" aria-pressed="false">
+									<svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+									Dark
+									<svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+									</button>
+								</li>
+								<li>
+									<button type="button" class="dropdown-item d-flex align-items-center color-theme active" data-bs-theme-value="auto" aria-pressed="true">
+									<svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#circle-half"></use></svg>
+									Auto
+									<svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+									</button>
+								</li>
+								</ul>
+							</div>
+							<!-- Fin Toggle modo dark -->
+						</li>
+					</ul>	
+				</div>
+			</div>
+		</nav>   	
+		<div class="container header-content ">
+			<div class="row">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-right">
+					<div class="text-uppercase text-dark title">
+						<div class="text-stroke">El único fracaso</div>
+						<div>es no intentarlo</div>
+					</div>
+					<div class="mt-3 font-size-18 description" data-aos="fade-right">
+						<p>Centro de Actividades Físicas La Punta es un espacio inclusivo que promueve la <strong>actividad física</strong> para todos.</p>
+						<p>Nuestro objetivo es mejorar su <strong>salud</strong> , <strong>bienestar</strong>  y  <strong>rendimiento</strong>, adaptándonos a sus necesidades y características individuales.</p>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 d-none d-lg-block title-img" data-aos="fade-left" data-aos-delay="400">
+					<img class="object-fit-cover" src="assets/img/header-w.png" alt="women workshot" width="700" height="450">
+				</div>
+			</div>
+		</div>
+		<div class="custom-shape-divider-bottom-1695083491 d-none d-xl-block d-xxl-block d-lg-block">
+			<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+				<path d="M649.97 0L550.03 0 599.91 54.12 649.97 0z" class="shape-fill"></path>
+			</svg>
+		</div>	
+	</header>	
+	
+	<section class="mt-5 pt-3 tarjetas-container">
+		<div class="container">
+			<div class="row tarjetas-section">
+				<div class="col-lg-4 sec">
+					<div class="card text-center mb-3 w-100" data-aos="zoom-in" data-aos-delay="400">
+						<div class="card-header bg-transparent">
+							<i class="fa-regular fa-calendar"></i>
+						</div>
+						<div class="card-body mb-5">
+							<h5 class="card-title"><span class="text-underline">Horarios</span></h5>
+							<p class="card-text text-center mb-5">Consulta nuestros horarios!</p>
+							<a href="horarios.html" class="btn-own btn-primary mt-3 text-decoration-none p-3">Ir al contenido</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 sec">
+					<div class="card text-center mb-3 w-100" data-aos="zoom-in" data-aos-delay="550">
+						<div class="card-header bg-transparent">
+							<i class="fa-regular fa-message"></i>
+						</div>
+						<div class="card-body mb-5">
+							<h5 class="card-title"><span class="text-underline">Contacto</span></h5>
+							<p class="card-text text-center mb-5">Ponte en contacto!</p>
+							<a href="contacto.html" class="btn-own btn-primary mt-3 text-decoration-none p-3">Ir al contenido</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 sec">
+					<div class="card text-center mb-3 w-100" data-aos="zoom-in" data-aos-delay="650">
+						<div class="card-header bg-transparent">
+							<i class="fa-solid fa-tag"></i>
+						</div>
+						<div class="card-body mb-5">
+							<h5 class="card-title"><span class="text-underline">Planes</span></h5>
+							<p class="card-text text-center mb-5">Entérate de los planes!</p>
+							<a href="planes.html" class="btn-own btn-primary mt-3 text-decoration-none p-3">Ir al contenido</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="wave-separate d-lg-block d-none d-xl-block d-md-block d-sm-block"></div>
+
+	<section class="mt-5">
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 sec-act mb-5">
+					<h2><span class="text-underline text-uppercase text-underline-red fw-bold">Actividades</span></h2>
+				</div>
+			</div>
+			<div class="row mt-5">
+				<div class="col-xxl-4 col-lg-6 col-md-12 col-sm-12 sec-act mb-5" data-aos="zoom-in-up" data-aos-delay="300">
+					<img class="object-fit-cover sec-act-img img-responsive" src="assets/img/musculacion.jpg" alt="Musculación">
+					<h3 class="mt-4 mb-4"><span class="text-underline-red">Musculación</span></h3>
+					<a href="actividades/musculacion.html" class="btn-own btn-danger mb-5 text-decoration-none">Saber más!</a>
+				</div>
+				<div class="col-xxl-4 col-lg-6 col-md-12 col-sm-12 sec-act mb-5" data-aos="zoom-in-up" data-aos-delay="350">
+					<img class="object-fit-cover sec-act-img img-responsive" src="assets/img/hiit.jpg" alt="Hiit">
+					<h3 class="mt-4 mb-4"><span class="text-underline-red">Hiit</span></h3>
+					<a href="actividades/hiit.html" class="btn-own btn-danger mb-5 text-decoration-none">Saber más!</a>
+				</div>
+				<div class="col-xxl-4 col-lg-6 col-md-12 col-sm-12 sec-act pb-xl-5 mb-xl-5 mb-5" data-aos="zoom-in-up" data-aos-delay="400">
+					<img class="object-fit-cover sec-act-img img-responsive" src="assets/img/deportivo.jpg" alt=" Deportivo">
+					<h3 class="mt-4 mb-4"><span class="text-underline-red">Deportivo</span></h3>
+					<a href="actividades/deportivo.html" class="btn-own btn-danger mb-5 text-decoration-none">Saber más!</a>
+				</div>
+				<div class="col-xxl-4 col-lg-6 col-md-12 col-sm-12 sec-act mb-5" data-aos="zoom-in-up" data-aos-delay="550">
+					<img class="object-fit-cover sec-act-img img-responsive" src="assets/img/funcional.jpg" alt="Funcional">
+					<h3 class="mt-4 mb-4"><span class="text-underline-red">Funcional</span></h3>
+					<a href="actividades/funcional.html" class="btn-own btn-danger mb-5 text-decoration-none">Saber más!</a>
+				</div>
+				<div class="col-xxl-4 col-lg-6 col-md-12 col-sm-12 sec-act mb-5" data-aos="zoom-in-up" data-aos-delay="500">
+					<img class="object-fit-cover sec-act-img img-responsive" src="assets/img/funcional-cross.jpg" alt="Funcional Cross">
+					<h3 class="mt-4 mb-4"><span class="text-underline-red">Funcional Cross</span></h3>
+					<a href="actividades/funcionalcross.html" class="btn-own btn-danger mb-5 text-decoration-none">Saber más!</a>
+				</div>
+				<div class="col-xxl-4 col-lg-6 col-md-12 col-sm-12 sec-act mb-5" data-aos="zoom-in-up" data-aos-delay="450">
+					<img class="object-fit-cover sec-act-img img-responsive" src="assets/img/crossfit.jpg" alt="Crossfit">
+					<h3 class="mt-4 mb-4"><span class="text-underline-red">Crossfit</span></h3>
+					<a href="actividades/crossfit.html" class="btn-own btn-danger mb-5 text-decoration-none">Saber más!</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<article class="art-not mb-5 mt-5">
+		<div class="custom-shape-divider-top-1684265676">
+			<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+				<path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+			</svg>
+		</div>
+		<div class="container mt-5 mb-5">
+			<div class="row art-not-center">
+				<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 mt-3" data-aos="fade-down-right" data-aos-delay="300">
+					<h2><span class="text-light text-underline-light text-uppercase fw-bold">Última Noticia</span></h2>
+				</div>
+			</div>
+			<div class="row mt-4">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 last-new-title text-light" data-aos="fade-right">
+					<h5 class="art-not-center fw-bold fw-light">¡Cumplimos 8 años!</h5>
+					<p >Ya son 8 años desde que comenzamos este camino, desde entonces nos proponemos metas y nuevos desafíos, 8 años en los que nunca dejamos de apostar y soñar. Gracias a cada uno de los que forman parte de esta familia, sin ustedes nada sería posible.</p>
+					<p>Sigamos creciendo juntos!</p>
+				</div>	
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 art-not-center text-center" data-aos="fade-left">	
+					<i class="fa-regular fa-bell fa-shake text-light"></i>
+				</div>
+			</div>
+		</div>
+	</article>
+
+	<div class="wave-separate2 mb-4 d-lg-block d-none d-xl-block d-md-block d-sm-block"></div>
+
+	<section class="calculadora mt-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-7 mt-5 mb-5">
+					<h2><span class="text-underline-red text-uppercase">Calculadora IMC</span></h2>
+					<small class="text-danger">*Índice de masa corporal</small>
+					<form id="form" class="mt-3 mb-3">
+						<label for="peso" class="mt-2 mb-2">Peso</label>
+						<div class="input-group mb-3">
+							<span class="input-group-text"><i class="fa-solid fa-weight-hanging"></i></span>
+							<input type="number" class="form-control" id="peso" name="peso" required>
+							<span class="input-group-text">Kg</span>
+						</div>
+						<label for="altura" class="mt-2 mb-2">Altura</label>
+						<div class="input-group mb-3">
+							<span class="input-group-text"><i class="fa-solid fa-ruler-vertical"></i></span>
+							<input type="number" step=".01" class="form-control" id="altura" name="altura" required>
+							<span class="input-group-text">cm</span>
+							<!--<span class="input-group-text select">
+								<select class="form-select" id="select-weight" onchange="calcular();">
+									<option value="1">m</option>
+									<option value="2">cm</option>
+								</select>
+							</span>!-->
+						</div>
+						<button type="submit" class="btn-own btn-danger mt-3 mb-3">CALCULAR</button>
+					</form>
+					<div id="info" class="d-none">
+						<hr>
+						<div class="icm mt-3 mb-3">
+							<span id="valor-icm"></span>							
+							<span>Tu IMC</span>							
+						</div>
+						<small id="msj" class="d-none text-center text-danger">Asegúrese de ingresar correctamente los datos!</></small>
+						<hr>
+						<div class="text-center mt-3">
+							<a href="http://www.calculoimc.com/" target="_blank" class="copy text-danger"><small>Más información acerca del IMC <i class="fa-solid fa-arrow-up-right-from-square ms-2"></i></small></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-5 mt-3 p-5 mb-5 text-center imc-info">	
+					<table class="table table-sm table-borderless align-middle table-hover">
+						<thead class="text-danger">
+							<tr>
+								<th>IMC</th>
+								<th>Clasificación</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><16.00</td>
+								<td>Infrapeso: Delgadez Severa</td>
+							</tr>
+							<tr>
+								<td>16.00 - 16.99</td>
+								<td>Infrapeso: Delgadez moderada</td>
+							</tr>
+							<tr>
+								<td>17.00 - 18.49</td>
+								<td>Infrapeso: Delgadez aceptable</td>
+							</tr>
+							<tr>
+								<td>18.50 - 24.99</td>
+								<td>Peso Normal</td>
+							</tr>
+							<tr>
+								<td>25.00 - 29.99</td>
+								<td>Sobrepeso</td>
+							</tr>
+							<tr>
+								<td>30.00 - 34.99</td>
+								<td>Obesidad: Tipo I</td>
+							</tr>
+							<tr>
+								<td>35.00 - 40.00</td>
+								<td>Obesidad: Tipo II</td>
+							</tr>
+							<tr>
+								<td>>40.00</td>
+								<td>Obesidad: Tipo III</td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr>
+								<th><a type="button" class="info mt-5 text-danger ms-3" data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa-solid fa-circle-exclamation"></i></a></th>
+							</tr>
+						</tfoot>
+					</table>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- The Modal -->
+	<div class="modal fade" id="myModal">
+		<div class="modal-dialog">
+			<div class="modal-content">		
+				<!-- Modal Header -->
+				<div class="modal-header">
+				<h4 class="modal-title">IMC</h4>
+				<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+				</div>		
+				<!-- Modal body -->
+				<div class="modal-body">
+					Te recordamos que los valores aquí indicados relativos al IMC, son valores de referencia de acuerdo al criterio y consenso científico sobre el tema, pero son generales, por lo que, pueden existir diferencias inter-individuales no recogidas en los resultados. Por ello, se aconseja siempre la opinión de un experto, profesional de la salud, como el Médico de Atención primaria, para valorar y pautar las correctas medidas a seguir.
+				</div>		
+			</div>
+		</div>
+	</div>
+
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col text-center">
+				<h2 class="mb-5 mt-2" data-aos="zoom-out-down" data-aos-delay="400"><span class="text-uppercase text-underline-red">Encontranos</span></h2>
+			</div>
+		</div>
+	</div>
+	<iframe title="Google Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7941.13837635195!2d-66.32547840508656!3d-33.19213632144652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d440dc6d968acb%3A0x9971686880cb4612!2sCAF%20Centro%20de%20Actividades%20Fisicas!5e0!3m2!1ses-419!2sar!4v1684243937696!5m2!1ses-419!2sar" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+	<div class="divider-footer mt-5"></div>	
+
+	<footer class="footer-bg">
+		<div class="container pb-5">
+			<div class="row align-items-center">
+				<div class="col-lg-8 col-md-7 col-sm-12 logo-grey" data-aos="fade-up">
+					<a href="index.html">
+						<img class="logo-scale filter-grey" src="assets/img/logo.png" alt="Logotipo" width="180" height="130">
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-5 col-sm-12 redes text-end" data-aos="fade-up">
+					<a href="https://www.facebook.com/Gymcaflapunta" target="_blank" aria-label="Facebook" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Facebook"><i class="fa-brands fa-facebook-f m-2 text-light brand"></i></a>
+					<a href="https://www.instagram.com/caflapunta/" target="_blank" aria-label="Instagram" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Instagram"><i class="fa-brands fa-instagram  m-2 text-light brand"></i></a>
+					<a href="https://www.youtube.com/@caflapunta7083" target="_blank" aria-label="YouTube" data-bs-toggle="tooltip" data-bs-placement="bottom" title="YouTube"><i class="fa-brands fa-youtube m-2 text-light brand"></i></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 text-center text-light">
+					<small class="d-block">Todos los derechos reservados <i class="fa-regular fa-copyright"></i> CAF La Punta</small>
+					<small>Diseñado y Programado por <a class="copy text-light" href="https://www.behance.net/ulisesponce2" target="_blank">Ulises Ponce</a></small>
+				</div>
+			</div>
+		</div>	
+	</footer>
+
+	<!-- THEME -->
+	<script src="assets/js/theme.js"></script>
+
+	<!-- ICM CALCULADORA-->
+	<script src="assets/js/icm.js"></script>
+
+	<!-- BOOTSTRAP JS -->	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+	
+	<!-- OWN SCRIPT-->
+	<script src="assets/js/scripts.js"></script>
+
+	<!-- ANIMATIONS JS-->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			easing: 'ease',
+			duration: 800,
+			delay: 100,
+			once: true
+		});
+	</script>
+		
+	<!-- FONTAWESOME -->
+	<script src="https://kit.fontawesome.com/139a156868.js" crossorigin="anonymous"></script>
+</body>
+</html>
